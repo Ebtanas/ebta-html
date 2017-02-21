@@ -1,0 +1,54 @@
+/* DO NOT TOUCH THE FLEX */
+
+html {
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding:27px;
+  width: 997px;
+}
+
+.body {
+  flex: 1;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CUSTOMIZATION HERE */
+
+.form-select {
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 0.4rem !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0.4rem !important;
+}
+
+.tab {
+  border-bottom: none !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.aligncenter {text-align: center}
+
+/* COMMON PAGE */
+
+
+/* PROBLEM SETS PAGE */
+
+.masonry-layout {
+  column-count: 3;
+  column-gap: 0;
+}
+.masonry-layout-panel {
+  break-inside: avoid;
+  padding: 1rem;
+}
